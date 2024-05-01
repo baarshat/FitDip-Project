@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+    <head>
+        <title>Full Body Sun</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <!-- Nav Bar Start -->
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+            <a href="#" class="logo"><img src="assets/logo.webp" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li> 
+                </ul>
+                <a href="#" class="person"><img src="assets/person.png" style="height: 60px; width: auto;" alt="personal info"></a>
+              </div>
+            </div>
+          </nav>
+          <!-- Nav Bar End -->
+        
+        <input type="placeholder" placeholder="Search" class="Search-input">
+        <div class="container-fluid">
+            <div class="bttn">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-xs-12" style="margin-right: 10px;">
+                        <a href="index.html">
+                            <button type="button" class="s-btn">All</button>
+                        </a>
+                        <a href="Features.html">
+                            <button type="button" class="s-btn">Features</button>
+                        </a>
+                        <a href="Programs.html">
+                            <button type="button" class="s-btn">Programs</button><br>
+                        </a>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-1 col-md-4 col-xs-12">
+                    <br>
+                    <h4>Full Body</h4>
+                    <p>
+                        Sun: <br> 
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          Latpulldown
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-centered  modal-lg">
+                            <div class="modal-content vid">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Latpulldown</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <video width="100%" height="auto" controls>
+                                      <source href="" src="assets/Lat Pulldown.mp4" type="video/mp4">
+                                    </video>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </p>
+                    <table class="table table-bordered" bgcolor="grey">
+                        <tr>
+                          <th>kgs</th>
+                          <th>Sets</th>
+                          <th>Reps</th>
+                        </tr>
+                        <tr>
+                          <td>
+                            <div>
+                              <input type="placeholder" class="amt">
+                            </div>
+                          </td>
+                          <td>
+                            <div>
+                              <input type="placeholder" class="amt">
+                            </div>
+                          </td>
+                          <td>
+                            <div>
+                              <input type="placeholder" class="amt">
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                      <p>Add Set</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-1 col-md-4 col-xs-12">
+                <a href="latpulldown-video.html">
+                  <p>Bench Press<br>
+                </a>
+                </p>
+                <table class="table table-bordered" bgcolor="grey">
+                    <tr>
+                      <th>kgs</th>
+                      <th>Sets</th>
+                      <th>Reps</th>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="amt-holder">
+                          <input type="placeholder" class="amt">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="amt-holder">
+                          <input type="placeholder" class="amt">
+                        </div>
+                      </td>
+                      <td>
+                        <div>
+                          <input type="placeholder" class="amt">
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                  <p>Add Set</p>
+            </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+</html>
